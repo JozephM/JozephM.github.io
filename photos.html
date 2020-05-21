@@ -1,106 +1,55 @@
 <html class="bg">
-<title>Photos</title>
-<head><link rel="stylesheet" href="styles.css"></head>
+    <title> Photos </title>
+    <head><link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+     </head>
+    <style>
+    .header {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 50px 0px 0px 0px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imgwall {
+        width: 450px;
+        height: 350px;
+        margin: 10px;
+        transition: all 0.5s;
+    }
+    img {
+        transition: all 0.5s;
+    }
+    .imgwall:hover, img:hover {
+        transform: scale(1.1);
 
-<style>
-* {
-  box-sizing: border-box;
-}
+    }
+    </style>
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
+    <!-- Header -->
+    <div class="header">
+        <h2>snaps</h2>
+        
+    </div>
+    <p align="center"><a href="https://jozeph.me/"> <img src="homepageicon.png" height="40" width="40"></a></p>
 
-.header {
-  text-align: center;
-  padding: 32px;
-}
+    <div class="container">
+        <img src="https://i.postimg.cc/SNnL6vmD/IMG-1.jpg" class="imgwall" alt="Sault St Marie">
+        <img src="https://i.postimg.cc/bJMrpL4w/IMG-7.jpg" class="imgwall" alt="Water">
+        <img src="https://i.postimg.cc/mgNwdp5M/IMG-5.jpg" class="imgwall" alt="Sunrise">
+        <img src="https://i.postimg.cc/cCn7fF3v/IMG-1618.jpg" class="imgwall" alt="Forest">
+        
+        <img src="https://i.postimg.cc/wjd2QY0g/IMG-4.jpg" class="imgwall" alt="Sugar Loaf">
+        <img src="https://i.postimg.cc/bvyR4075/IMG-2.jpg" class="imgwall" alt="Lake">
+        <img src="https://i.postimg.cc/gJrjC1S7/IMG-6.jpg" class="imgwall" alt="City">
+        <img src="https://i.postimg.cc/9XKJz794/IMG-3.jpg" class="imgwall" alt="Sunset>
+        <img src="https://i.postimg.cc/NfXbXj8d/IMG-12.jpg" class="imgwall" alt="Reflection">
+        <img src="https://i.postimg.cc/23N5Bykp/IMG-11.jpg" class="imgwall" alt="California">
+        
+    </div>
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-</style>
-<body>
-
-<!-- Header -->
-<div class="header">
-  <h1>snaps</h1>
-</div>
-<p align="center">
-    <a href="https://jozeph.me/"> <img src="homepageicon.png" height="30" width="30"></a>
-</p>
-
-<!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="IMG_1.jpg" style="width:100%">
-    <img src="IMG_0235.jpg" style="width:100%">
-    <img src="IMG_0280.jpg" style="width:100%">
-    <img src="IMG_2.jpg" style="width:100%">
-    
-    
-  </div>
-  <div class="column">
-        <img src="IMG_4.jpg" style="width:100%">
-        <img src="IMG_3.jpg" style="width:100%">
-    <img src="IMG_1618.jpg" style="width:100%">
-    <img src="IMG_0226.jpg" style="width:100%">
-
-  </div>  
-  <div class="column">
-        <img src="IMG_5.jpg" style="width:100%">
-    <img src="IMG_8.jpg" style="width:100%">
-    <img src="IMG_11.jpg" style="width:100%">
-    <img src="IMG_12.jpg" style="width:100%">
-
-
-  </div>
-  <div class="column">
-      <img src="IMG_10.jpg" style="width:100%">
-    <img src="IMG_7.jpg" style="width:100%">
-    <img src="IMG_13.jpg" style="width:100%"">
-    <img src="IMG_6.jpg" style="width:100%">
-
-  </div>
-</div>
-
-</body>
 
 </html>
