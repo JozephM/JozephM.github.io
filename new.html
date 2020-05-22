@@ -26,6 +26,12 @@
                 -o-background-size: cover;
                 background-size: cover;
             }
+            .animation {
+                animation-duration: 1.5s;
+            }
+            .animation2 {
+                animation-duration: 3s;
+            }
             h4 {
                 text-align: center;
                 font-size: 3em;
@@ -54,13 +60,13 @@
 <body>
 
     <div class="container d-flex align-items-center h-100">
-        <div class="row">
+        <div class="row ">
             <header class="text-center col-12">
-                <h3>This page was created to display the newest ideas and techniques I have learned.</h3>
-                <h3>It will likely change a bit every so often, but this text will remain similar.</h3>
+                <h3 class="animate__animated animate__fadeIn animation">This page was created to display the newest ideas and techniques I have learned.</h3>
+                <h3 class="animate__animated animate__fadeIn animation2">It will likely change a bit every so often, but this text will remain similar.</h3>
                 <div class="buffer"></div>
                 <a href="https://jozeph.me/">
-                <button class="animate__animated animate__slideInUp animate__pulse btn btn-info">Enjoy :)</button>
+                <button class="animate__animated animate__slideInUp animate__pulse animation2 btn btn-info">Enjoy :)</button>
                 </a>
             </header>
 
